@@ -64,9 +64,9 @@ def generate_story_from_text(scenario: str) -> str:
 def main() -> None:
     st.set_page_config(page_title="IMAGE TO STORY CONVERTER", page_icon="🖼️")
     st.markdown(css_code, unsafe_allow_html=True)
-    st.image("GADDE12.jpg")
+    st.image("VEERU PATIL.jpg")
     with st.sidebar:
-        st.image("GADDE12.jpg")
+        st.image("VEERU PATIL.jpg")
         st.write("AI App created by @ AKASH GADDE")
         st.write("Contact AKASH GADDE for 5 Days Workshop:akashgadde05@gmail.com")
         st.write("TB - Story to Audio will be done Later")
