@@ -1,1 +1,1 @@
-# GenAI-text_to_story
+# GenAI-image_to_story
