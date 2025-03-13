@@ -86,4 +86,4 @@ def main() -> None:
             st.write(story)
 
 if _name_ == "_main_":
-    main()
+main()
