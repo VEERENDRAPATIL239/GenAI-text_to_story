@@ -64,11 +64,11 @@ def generate_story_from_text(scenario: str) -> str:
 def main() -> None:
     st.set_page_config(page_title="IMAGE TO STORY CONVERTER", page_icon="🖼️")
     st.markdown(css_code, unsafe_allow_html=True)
-    st.image("VEERU PATIL.jpg")
+    st.image("GADDE12.jpg")
     with st.sidebar:
-        st.image("VEERU PATIL.jpg")
-        st.write("AI App created by @ PragyanAI - Education Purpose")
-        st.write("Contact Sateesh Ambesange for 5 Days Workshop:pragyan.ai.school@gmail.com")
+        st.image("GADDE12.jpg")
+        st.write("AI App created by @ AKASH GADDE")
+        st.write("Contact AKASH GADDE for 5 Days Workshop:akashgadde05@gmail.com")
         st.write("TB - Story to Audio will be done Later")
     st.header("Image-to-Story Converter")
     uploaded_file: Any = st.file_uploader("Please choose a file to upload", type="jpg")
@@ -86,4 +86,4 @@ def main() -> None:
             st.write(story)
 
 if __name__ == "__main__":
- main()
+    main()
